@@ -1,0 +1,49 @@
+.container {
+  margin: 0 auto;
+}
+
+.pokemons {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.data {
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(242, 106, 124);
+  border-radius: 10px;
+  border: solid 1px rgb(185, 24, 40);
+  text-align: center;
+  cursor: pointer;
+}
+
+.information {
+  margin: 0 auto;
+  background: rgb(242, 106, 124);
+  border-radius: 10px;
+  border: solid 1px rgb(29, 19, 124);
+  width: 200px;
+  text-align: center;
+}
+
+span {
+  display: block;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  background: rgb(119, 125, 195);
+  padding: 10px;
+  border: 2px solid rgb(119, 125, 195);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
